@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "caseyys_ait_addon",
+  "version": "${version}",
+  "name": "Caseyy's AiT Addon",
+  "description": "A Fabric addon for AmbleLabs' Mod Adventures in Time, adding new planets, space equipment, and more!",
+  "authors": [
+    "Caseyy1003"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.caseyy.caseyysaitaddon.CaseyysAiTAddon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.20.1",
+    "fabric-api": "*"
+    
+  }
+}
